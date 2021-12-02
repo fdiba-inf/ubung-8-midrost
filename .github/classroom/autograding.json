@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "PointDemo 6 9",
+      "setup": "cd src && javac exercise8/Utils.java exercise8/Point.java exercise8/PointDemo.java",
+      "run": "cd src && java -ea exercise8.PointDemo",
+      "input": "6 9",
+      "output": "Point 1: (0.0, 0.0)\r\nPoint 2: (1.0, 2.0)\r\nPoint 3: (6.0, 9.0)\r\nPoint 4: (6.0, 9.0)\r\nPoint 5: (2.0, 4.0)\r\nPoint 6: (1.0, 2.0)\r\nTranslated point 2: (5.0, 7.0)\r\nTranslated point 6: (5.0, 7.0)\r\nPoint 1 equals point 5: false\r\nTranslated point 1 equals point 5: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "PointDemo 3 2",
+      "setup": "cd src && javac exercise8/Utils.java exercise8/Point.java exercise8/PointDemo.java",
+      "run": "cd src && java -ea exercise8.PointDemo",
+      "input": "3 2",
+      "output": "Point 1: (0.0, 0.0)\r\nPoint 2: (1.0, 2.0)\r\nPoint 3: (3.0, 2.0)\r\nPoint 4: (3.0, 2.0)\r\nPoint 5: (2.0, 4.0)\r\nPoint 6: (1.0, 2.0)\r\nTranslated point 2: (5.0, 7.0)\r\nTranslated point 6: (5.0, 7.0)\r\nPoint 1 equals point 5: false\r\nTranslated point 1 equals point 5: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
